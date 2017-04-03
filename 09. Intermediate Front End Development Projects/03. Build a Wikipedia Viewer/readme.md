@@ -2,7 +2,7 @@ Wikipedia Search
 ==============
 
 
-This is my take on the **Wikipedia Search** for FreeCodeCamp.
+This is my take on the **Wikipedia Search** for [FreeCodeCamp](http://www.freecodecamp.com).
 
 
 ----------
