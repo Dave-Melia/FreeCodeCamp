@@ -1,47 +1,42 @@
 <!DOCTYPE html>
-<html>
-
+<html >
 <head>
   <meta charset="UTF-8">
   <title>Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Pacifico|Pompiere|Days+One'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css'>
 
+      <link rel="stylesheet" href="css/style.css">
 
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
-  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Pacifico|Pompiere|Days+One'>
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css'>
-
-  <link rel="stylesheet" href="css/style.css">
-
-
+  
 </head>
 
 <body>
-  <div class="centerDiv text-center">
-    <h1 class="cityClass blueStyle">--</h1>
-    <p>
-      <span class="tempClass blueStyle">00</span>
-      <i class="unitClass blueStyle"></i>
-    </p>
-  </div>
-
-  <div class="underDiv blueStyle text-center">
-    <span class="weatherIcon blueStyle"></span>
-    <span class="weatherClass blueStyle"></span>
-    <span class="sunrise weatherClass">
+  <div class="container">
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2 col-md-5 col-md-offset-4 mainDiv text-center">
+      <h1 class="cityClass">--</h1>
+      <p>
+        <span class="tempClass">00</span>
+        <i class="unitClass"></i>
+      </p>
+      <span class="weatherIcon"></span>
+      <span class="weatherClass"></span>
+      <span class="sunrise weatherClass">
         <i class="wi wi-sunrise"></i>
       </span>
-    <span class="sunset weatherClass">
+      <span class="sunset weatherClass">
         <i class="wi wi-sunset"></i>
       </span>
+    </div>
   </div>
-
-  <div class="unitDiv blueStyle text-center">
-    <p class="switchClass">Switch to fahrenheit</p>
-  </div>
+</div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 
-  <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
-
 </html>

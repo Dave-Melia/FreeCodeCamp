@@ -1,42 +1,16 @@
-.centerDiv, .underDiv, .unitDiv{
-	width:400px;
-	height:130px;
-	position:absolute;
-	left:50%;
-	top:50%;
-	margin:-100px 0 0 -150px;
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 15px
-}
-
-.underDiv{
-	height:70px;
-	top:71%;
-}
-
-.unitDiv{
-	height:30px;
-  top:83%;
-}
-
-.underDiv i{
-  margin-top: 24px;
-  font-size: 20px;
-  padding: 2px 16px 0px 16px;
-}
-
-.cityClass, .weatherClass {
+body {
+  color: #204965;
   font-family: 'Days One', sans-serif;
 }
 
-.cityClass {
-  padding-top: 11px;
+.mainDiv {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+  margin-top: 250px;
+  padding: 20px;
+  
 }
 
 .tempClass, .unitClass {
   font-size: 30px;
-}
-
-.blueStyle {
-  color: #204965;
 }
