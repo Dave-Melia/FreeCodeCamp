@@ -7,6 +7,8 @@ This is my take on the **Show the Local Weather** for [FreeCodeCamp](http://www.
 
 ----------
 
+> Note:  If nothing loads, make sure that it isn't using the secure http protocol.  Not sure why but it works as http://
+
 
 Live Demo
 -------------
